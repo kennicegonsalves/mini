@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>html form</title>
+    <script src="ip3.js"></script>
+</head>
+<body>
+    <center>
+        <div style="background-color: rgb(238, 175, 255);">
+            <img src="C:\Users\Kennice Gonsalves\OneDrive\Desktop\sem 5\sfitlogo.png" alt="">
+            <h1><b>St. Francis Institute of Technology</b></h1>
+            <p>Mount Poinsur, Borivali (W), Mumbai 400101</p>
+            <p><b>Phone No.</b> 022-28908585, 022-28908787
+                <b>Email:</b> sfedu@sfit.ac.in 
+                <b>Website:</b> www.sfit.ac.in
+            </p>
+        </div>
+    </center>
+    <div style="background-color: rgb(255, 154, 204);">
+        <h2>Admission Enquiry Registration</h2>
+        <h3><i>General Instructions:</i></h3>
+        <i><b>1. Strictly enter your own details.</b></i><br>
+        <i><b>2. Enter primary phone number and email only.</b></i><br>
+        <br>
+        <form name="myform" action="" onsubmit="return validate();">
+            <b><label for="fname">First Name:</label></b>
+            <input type="text" id="fname" name="fname"><br><br>
+            <b><label for="mname">Middle Name:</label></b>
+            <input type="text" id="mname" name="mname"><br><br>
+            <b><label for="lname">Last Name:</label></b>
+            <input type="text" id="lname" name="lname"><br><br>
+            
+            <b><label for="address">Address:</label></b>
+            <input type="text" name="address" id="address"><br><br>
+            
+            <b><label for="city">City:</label></b>
+            <select name="city" id="city">
+                <option value="Mumbai">Mumbai</option>
+                <option value="Surat">Surat</option>
+                <option value="New Delhi">New Delhi</option>
+            </select>
+            
+            <b><label for="state">State:</label></b>
+            <select name="state" id="state">
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+            
+            <b><label for="pincode">Pincode:</label></b>
+            <input type="text" name="pincode" id="pincode"><br><br>
+            
+            <b><label for="mail">Email Id:</label></b>
+            <input type="email" id="mail" name="mail"><br><br>
+            
+            <b><label for="number">Phone number:</label></b>
+            <input type="number" id="number" name="number"><br><br>
+            
+            <b>Gender:</b>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            
+            <b><label for="date">Date of Birth:</label></b>
+            <input type="date" id="date" name="date"><br><br>
+            
+            <b><label for="branch">Branch:</label></b>
+            <input type="checkbox" name="branch" value="IT"> INFT 
+            <input type="checkbox" name="branch" value="CS"> CMPN 
+            <input type="checkbox" name="branch" value="EXTC"> EXTC 
+            <input type="checkbox" name="branch" value="MECH"> MECH <br><br>
+            
+            <b><label for="fl">Upload CET Score Card:</label></b>
+            <input type="file" name="file" id="fl"><br><br>
+            
+            <b><label for="ename">Choose username:</label></b>
+            <input type="text" id="ename" name="username"><br><br>
+            
+            <b><label for="pname">Enter password:</label></b>
+            <input type="password" id="pname" name="pass"><br><br>
+            
+            <b><label for="rname">Retype password:</label></b>
+            <input type="password" id="rname" name="retrypass"><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div>
+        <iframe height="600" width="100%" src="https://www.sfit.ac.in" title="SFIT"></iframe>
+        <center>
+            <iframe height="500" width="500" src="https://www.sfit.ac.in/images/building.jpg" title="SFIT"></iframe>
+        </center>
+    </div>
+</body>
+</html>

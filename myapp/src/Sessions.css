@@ -1,0 +1,13 @@
+.sessions p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .sessions strong {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .sessions p {
+    color: #333;
+  }

@@ -1,0 +1,27 @@
+.contact-info {
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #ffd700;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer .social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }

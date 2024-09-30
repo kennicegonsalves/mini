@@ -1,0 +1,95 @@
+
+.second-page-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+
+.section-header {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+
+.options-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.options-header, .value-header, .correct-header {
+  flex: 1;
+  text-align: center;
+}
+
+
+.options-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.option-input {
+  flex: 2;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.option-value {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.option-checkbox {
+  margin-left: 10px;
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function Animal (name, age) {
+    this.name = name;
+    this.age = age;
+    }
+    Animal.prototype.speak = function() { document.write(`${this.name} makes a
+    sound.<br>`);
+    };
+    const Dog = new Animal('Dog', 3); Dog.speak = function() {
+    document.write(`${this.name}
+    barks.<br>`);
+    };
+    const Cat = new Animal('Cat', 2); Cat.speak = function() { document.write(`${this.name}
+    meows.<br>`);
+    };
+    Dog.speak();
+    Cat.speak();
+    const Doggy = Object.create(Dog); Doggy.name = 'German Shepherd'; Doggy.speak();
+    </script>
+</body>
+</html>
